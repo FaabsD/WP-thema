@@ -11,4 +11,4 @@
         <p>Geen berichten gevonden</p>
     <?php endif ?>
 <?php get_footer()?>
-<!-- TODO verder vanaf video 6: https://blanken5.home.xs4all.nl/WP_themaMaken.html# -->
+<!-- TODO verder vanaf video 11: https://blanken5.home.xs4all.nl/WP_themaMaken.html# -->
