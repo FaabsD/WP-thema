@@ -28,4 +28,8 @@ body {
 }
 .jumbotron a{
     color: #ffffff;
+    text-decoration: none;
+}
+.jumbotron a:hover{
+    color: #ffffff;
 }
