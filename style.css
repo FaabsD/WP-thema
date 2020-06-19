@@ -22,4 +22,6 @@ body{
 .jumbotron{
     background-size: cover;
     background-position: center center;
+    color: #ffffff;
+    text-shadow: 1px 2px 3px #000000;
 }
