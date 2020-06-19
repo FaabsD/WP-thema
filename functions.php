@@ -4,7 +4,7 @@ function loadStylesheet()
 {
     wp_enqueue_style('style', get_stylesheet_uri());
     wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.css');
-    wp_enqueue_script('bootstrapjs', get_template_directory_uri() . '/scripts/bootstrap.min.js', array( 'jquery' ), 1.5, true);
+    wp_enqueue_script('bootstrapjs', get_template_directory_uri() . '/scripts/bootstrap.min.js', array( 'jquery' ), 1.4, true);
 }
 add_action('init', 'loadStylesheet');
 
