@@ -26,3 +26,6 @@ body {
     color: #ffffff;
     text-shadow: 1px 2px 3px #000000;
 }
+.jumbotron a{
+    color: #ffffff;
+}
