@@ -34,7 +34,9 @@
         </nav>
 
         <div class="jumbotron" style="background-image: url(<?php echo get_template_directory_uri() . '/img/cave.jpg'?>);">
-            <h1 class="display-4"><a href="<?php echo home_url() ?>"><?php bloginfo('name') ?></a></h1>
-            <p class="lead"><?php echo bloginfo('description') ?></p>
+            <div class="container">
+                <h1 class="display-4"><a href="<?php echo home_url() ?>"><?php bloginfo('name') ?></a></h1>
+                <p class="lead"><?php echo bloginfo('description') ?></p>
+            </div>
         </div>
     </header>
