@@ -7,8 +7,8 @@
                 <?php if (have_posts()) : ?>
                     <?php while (have_posts()) : the_post(); ?>
                         <!-- zaken met de posts -->
-                        <h3><?php the_title() ?></h3>
-                        <div><?php the_content() ?></div>
+                        <h3><a href="<?php the_permalink()?>"><?php the_title()?></a></h3>
+                        <div><?php the_excerpt() ?></div>
                     <?php endwhile ?>
                 <?php else : ?>
                     <p>Geen berichten gevonden</p>
