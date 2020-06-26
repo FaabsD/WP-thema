@@ -15,9 +15,7 @@
                 <?php endif ?>
         </main>
         <aside class="bg-light col-md-4">
-            <h3>
-                Terzijde
-            </h3>
+          <?php dynamic_sidebar('aside');?>
         </aside>
     </div>
 </div>
