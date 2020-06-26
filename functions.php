@@ -41,6 +41,17 @@ function register_widgets(){
             'after_title' => '</h3>'
         )
     );
+    register_sidebar(
+        array(
+            'id' => 'under',
+            'name' => __('footer widgets'),
+            'description' => __('Widget voor inde footer'),
+            'before_widget' => '<div class="widget-footer">',
+            'after_widget' => '</div>',
+            'before_title' => '<h3 class="widget-footer-title">',
+            'after_title' => '</h3>'
+        )
+    );
 }
 
 add_action( 'init', 'register_widgets' );
