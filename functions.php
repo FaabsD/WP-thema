@@ -13,9 +13,9 @@ add_action('init', 'loadStylesheet');
 function registerMenu()
 {
     $argumenten = array(
-        'hoofd-menu' => __('Hoofd menu')
+        'hoofd-menu' => __('hoofd menu')
     );
-    register_nav_menus();
+    register_nav_menus($argumenten);
 }
 add_action('init', 'registerMenu');
 
