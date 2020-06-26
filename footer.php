@@ -2,15 +2,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        &copy; <?php the_author()?> 
-                        <small><?php echo date('Y')?></small>
+                        &copy; <?php the_author() ?>
+                        <small><?php echo date('Y') ?></small>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <?php dynamic_sidebar('under')?>
+                    <div class="col-md-4">
+                        <?php dynamic_sidebar('under') ?>
+                    </div>
                 </div>
             </div>
         </footer>
-        <?php wp_footer();?>
-    </body>
-</html>
+        <?php wp_footer(); ?>
+        </body>
+
+        </html>
