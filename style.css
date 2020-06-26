@@ -33,3 +33,16 @@ body {
 .jumbotron a:hover{
     color: #ffffff;
 }
+.widget-footer{
+    font-size: .8em;
+}
+.widget-footer a{
+    color: white;
+}
+.widget-footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.widget-footer-title{
+    font-size: 1rem;
+}
