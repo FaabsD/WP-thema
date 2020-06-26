@@ -20,4 +20,4 @@
     </div>
 </div>
 <?php get_footer()?>
-<!-- TODO verder vanaf video 11: https://blanken5.home.xs4all.nl/WP_themaMaken.html# -->
+<!-- TODO verder vanaf video 18: https://blanken5.home.xs4all.nl/WP_themaMaken.html# -->
